@@ -1,18 +1,19 @@
-font-face {
+/* font-face {
   font-family:'porter'; src: url(PorterBold.ttf);
   font-family: 'Slabo'; src: url(slabo/Slabo13px-Regular.ttf);
 
-}
+} */
 
 html,
 body {
   background-color: #efefef;
 }
 
+
 h1 {
   font-weight: bold;
   letter-spacing: 0.05em;
-  font-family: "sans-serif";
+  font-family: "Tahoma";
 }
 
 body, html, .main{
@@ -28,6 +29,10 @@ section {
   background-color: #efefef;
 }
 
+.newfont {
+  font-family: "Tahoma";
+}
+
 .name {
   font-size: 5em;
   font-weight:bold;
@@ -38,7 +43,7 @@ section {
 }
 
 .nav-masthead .nav-link {
-  font-family: "sans-serif";
+  font-family: "Tahoma";
   color: rgba(255, 255, 255, .5);
   background-color: transparent;
   border-bottom: .25rem solid transparent;
