@@ -1,0 +1,133 @@
+font-face {
+  font-family:'porter'; src: url(PorterBold.ttf);
+  font-family: 'Slabo'; src: url(slabo/Slabo13px-Regular.ttf);
+
+}
+
+html,
+body {
+  background-color: #efefef;
+}
+
+h1 {
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  font-family: "porter";
+}
+
+body, html, .main{
+    height: 100%;
+}
+
+section {
+  min-height: 100%;
+
+}
+
+.nav {
+  background-color: #efefef;
+}
+
+.name {
+  font-family: "porter";
+  font-size: 5em;
+  font-weight:bold;
+  font-variant-caps:all-petite-caps;
+  padding: -12em;
+  color: white;
+  letter-spacing: 0.09em;
+}
+
+.nav-masthead .nav-link {
+  font-family: "porter";
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(0, 0, 0, .25);
+  color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #000;
+  border-bottom-color: #000;
+}
+
+.maincontent {
+  margin-bottom: 15%;
+}
+
+
+.contactbutton {
+  padding: 1.5% 4%;
+  border-radius: 0;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.aboutmetext {
+  font-size: 1em;
+  line-height: 1.7em;
+  border-radius: 0;
+  border: none;
+  padding: 40px;
+
+}
+
+/* social networking buttons */
+
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+font-size: 50px;
+width: 100px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+
+
+/* social networking buttons */
+
+
+
+@media (max-width: 967.98px) {
+  .name {font-size:3em; letter-spacing: 0.2em;}
+  .contact {text-align:center; padding-top: 12%;
+}
+
+@media (max-width: 575.98px) {
+  .name {font-size:2em; letter-spacing: 0.1em; margin-top: 80px;}
+  .main {height:auto;}
+  .fn {margin-left: 16px}
+  .aboutmetext {padding:24px;}
+}
